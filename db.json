@@ -1,16 +1,40 @@
 {
-  "posts":[
+  "professores": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "nome": "Maria",
+      "disciplina": "Matematica",
+      "perfil": "Professor",
+      "ativo": "Ativo",
+      "id": 16
+    },
+    {
+      "nome": "Arthur",
+      "perfil": "Professor",
+      "disciplina": "JS",
+      "ativo": "Ativo",
+      "id": 19
+    },
+    {
+      "nome": "Maria Eliethe",
+      "perfil": "Cordenador",
+      "disciplina": "HTML",
+      "ativo": "Inativo",
+      "id": 20
+    },
+    {
+      "nome": "Marlene Santos",
+      "perfil": "Professor",
+      "disciplina": "Agricultura",
+      "ativo": "Ativo",
+      "id": 21
     }
   ],
-  "comments" : [
+  "alunos": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "nome": "Breno",
+      "turma": "Manhã",
+      "ativo": "Ativo",
+      "id": 1
     }
   ]
 }
